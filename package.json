@@ -1,0 +1,29 @@
+{
+  "name": "bookmarks_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/msze400/bookmarks_app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/msze400/bookmarks_app/issues"
+  },
+  "homepage": "https://github.com/msze400/bookmarks_app#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "pg": "^8.4.2",
+    "sequelize": "^6.3.5"
+  }
+}
