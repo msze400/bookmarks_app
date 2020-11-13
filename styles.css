@@ -1,0 +1,23 @@
+h1 {
+    color: blue;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+form {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    flex: 100;
+    align-items: center;
+}
+
+bookmark-form > * {
+    margin: 2rem;
+}
+
+input,
+button {
+    width: 90vw;
+    margin: 1rem;
+}

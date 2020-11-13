@@ -11,9 +11,12 @@ const Bookmarker = db.define('Bookmarker', {
     },
     siteURL: {
         type: STRING,
+        allowNull: false,
         validate: {
             isURL: true,
         },
+
+        unique: true,
     },
     category: {
         type: STRING,
